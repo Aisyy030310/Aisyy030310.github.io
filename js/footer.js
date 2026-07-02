@@ -20,7 +20,14 @@
     '<a href="https://www.facebook.com/share/1LiL6SQaoc/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" data-i18n="footer-facebook">Facebook</a>' +
     '<a href="https://www.instagram.com/fluxrsdnbhd?utm_source=qr" target="_blank" rel="noopener noreferrer" data-i18n="footer-instagram">Instagram</a>' +
     '<a href="https://www.pdp.gov.my/ppdpv1/en/main-page/" target="_blank" rel="noopener noreferrer" data-i18n="footer-pdpa">PDPA Malaysia</a>' +
-    "</p></div></div></div></footer>";
+    "</p>" +
+    '<div class="footer-music-player mt-3 pt-3">' +
+    '<span class="small footer-music-label" data-i18n="footer-music-label">Background music</span>' +
+    '<span class="small footer-music-track">Keys of Moon - White Petals</span>' +
+    '<button type="button" class="btn btn-sm footer-music-btn" id="footerMusicBtn" data-i18n-aria="footer-music-play" aria-label="Play music">' +
+    '<i class="fa fa-play" id="footerMusicIcon" aria-hidden="true"></i></button>' +
+    '<input type="range" class="footer-music-volume" id="footerMusicVolume" min="0" max="100" value="40" aria-label="Volume">' +
+    "</div></div></div></div></footer>";
 
   var root = document.getElementById("footer-root");
   if (root) {
