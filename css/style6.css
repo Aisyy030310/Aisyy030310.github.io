@@ -1,0 +1,164 @@
+.pricing-card {
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+}
+
+.pricing-popular {
+  box-shadow: 0 4px 20px rgba(217, 98, 224, 0.22) !important;
+}
+
+.pricing-badge {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  transform: translateY(-50%);
+  background: var(--fluxr-pink);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pricing-toggle {
+  background: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: inline-flex;
+}
+
+.pricing-tabs .nav-link {
+  color: var(--fluxr-dark);
+  font-weight: 500;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+.pricing-tabs .nav-link.active {
+  color: var(--fluxr-blue);
+  border-bottom: 3px solid var(--fluxr-pink);
+  background: transparent;
+}
+
+.service-card {
+  border: none;
+  margin-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 4px 14px rgba(26, 54, 177, 0.12);
+}
+
+.service-card .service-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--fluxr-light);
+  color: var(--fluxr-blue);
+  flex-shrink: 0;
+}
+
+.product-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-card-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #e9ecef;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.product-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.product-card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-card .card-text {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.product-card .card-title {
+  color: var(--fluxr-blue);
+  font-weight: 600;
+  min-height: 3rem;
+}
+
+.careers-table-wrap {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.careers-table thead {
+  background: var(--fluxr-dark);
+  color: #fff;
+}
+
+.careers-table tbody tr:hover {
+  background: var(--fluxr-light);
+}
+
+.careers-table .btn-apply {
+  background: var(--fluxr-blue);
+  border-color: var(--fluxr-blue);
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.35rem 1rem;
+  font-size: 0.8rem;
+}
+
+.careers-table .btn-apply:hover {
+  background: var(--fluxr-pink);
+  border-color: var(--fluxr-pink);
+  color: #fff;
+}
+
+.error-page {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.error-code {
+  font-size: 6rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--fluxr-blue), var(--fluxr-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.error-card {
+  padding: 2.5rem;
+}

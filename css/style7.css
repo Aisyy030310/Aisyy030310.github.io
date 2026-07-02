@@ -1,0 +1,12 @@
+.pricing-popular {
+  box-shadow: 0 4px 20px rgba(217, 98, 224, 0.22);
+}
+
+.pricing-toggle .form-check-input:checked {
+  background-color: var(--fluxr-blue);
+  border-color: var(--fluxr-blue);
+}
+
+.price-animate {
+  transition: opacity 0.25s ease;
+}

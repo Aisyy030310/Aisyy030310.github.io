@@ -1,0 +1,29 @@
+body.dark-mode {
+  background-color: #1a1d20;
+  color: #dee2e6;
+}
+
+body.dark-mode .bg-white {
+  background-color: #212529 !important;
+}
+
+body.dark-mode .card {
+  background-color: #2b3035;
+  color: #dee2e6;
+}
+
+body.dark-mode .list-group-item {
+  background-color: #2b3035;
+  color: #dee2e6;
+  border-color: #495057;
+}
+
+body.dark-mode .text-muted {
+  color: #adb5bd !important;
+}
+
+body.dark-mode .form-control {
+  background-color: #343a40;
+  border-color: #495057;
+  color: #fff;
+}

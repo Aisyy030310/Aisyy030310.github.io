@@ -1,0 +1,36 @@
+.navbar-fluxr {
+  background-color: var(--fluxr-dark) !important;
+}
+
+.nav-search {
+  max-width: 200px;
+}
+
+@media (min-width: 992px) {
+  .nav-search {
+    max-width: 260px;
+  }
+}
+
+.navbar .btn-notif {
+  position: relative;
+}
+
+.navbar .notif-dot {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  background: var(--fluxr-pink);
+  border-radius: 50%;
+}
+
+.navbar-brand span {
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+#navAuthArea .btn {
+  white-space: nowrap;
+}

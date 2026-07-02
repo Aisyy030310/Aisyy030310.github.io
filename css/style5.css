@@ -1,0 +1,72 @@
+.gallery-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.gallery-card-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #e9ecef;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.gallery-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.gallery-card .card-body {
+  flex: 1;
+}
+
+.gallery-thumb:hover {
+  transform: scale(1.02);
+  opacity: 0.92;
+}
+
+.gallery-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(26, 54, 177, 0.12);
+}
+
+.gallery-modal-body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: calc(100vh - 8rem);
+  -webkit-overflow-scrolling: touch;
+  padding: 0;
+}
+
+.gallery-modal-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.blog-card {
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(26, 54, 177, 0.1);
+}
+
+.blog-card .card-title {
+  color: var(--fluxr-dark);
+  font-weight: 600;
+}
+
+.blog-meta {
+  font-size: 0.8rem;
+}

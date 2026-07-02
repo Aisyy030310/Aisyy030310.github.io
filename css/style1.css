@@ -1,0 +1,234 @@
+:root {
+  --fluxr-blue: #1a36b1;
+  --fluxr-pink: #d962e0;
+  --fluxr-light: #d0e1f9;
+  --fluxr-dark: #0a0a0a;
+  --bs-primary: #1a36b1;
+  --bs-primary-rgb: 26, 54, 177;
+}
+
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > #nav-root,
+body > section,
+body > div:not(#footer-root):not(#nav-root) {
+  flex-shrink: 0;
+}
+
+#footer-root {
+  margin-top: auto;
+}
+
+.hero-block {
+  background: linear-gradient(135deg, var(--fluxr-blue) 0%, var(--fluxr-dark) 100%);
+  color: #fff;
+}
+
+.page-title-bar {
+  background-color: var(--fluxr-dark);
+  color: #fff;
+  padding: 2.25rem 0;
+  border-bottom: 3px solid var(--fluxr-pink);
+}
+
+.page-subtitle {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.page-section {
+  padding: 3.5rem 0;
+}
+
+.page-section-alt {
+  background: #fff;
+}
+
+.section-heading {
+  font-weight: 600;
+  color: var(--fluxr-dark);
+  margin-bottom: 0.35rem;
+}
+
+.section-lead {
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+
+.img-placeholder {
+  width: 100%;
+  background-color: #e9ecef;
+  border: 1px dashed #ced4da;
+  object-fit: cover;
+}
+
+.fluxr-card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: #fff;
+}
+
+.card,
+.fluxr-card,
+.feature-card,
+.auth-card,
+.form-card,
+.info-card,
+.mission-card,
+.gallery-card,
+.blog-card,
+.blog-post-card,
+.product-card,
+.pricing-card,
+.team-card,
+.service-card,
+.error-card,
+.careers-table-wrap,
+.privacy-intro {
+  border: none;
+}
+
+.fluxr-card:hover {
+  box-shadow: 0 6px 20px rgba(26, 54, 177, 0.12);
+}
+
+.card-hover:hover,
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-icon {
+  width: 3.25rem;
+  height: 3.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--fluxr-light);
+  color: var(--fluxr-blue);
+  margin-bottom: 1rem;
+}
+
+.feature-icon-pink {
+  background: rgba(217, 98, 224, 0.15);
+  color: var(--fluxr-pink);
+}
+
+.btn-fluxr-accent {
+  background-color: var(--fluxr-pink);
+  border-color: var(--fluxr-pink);
+  color: #fff;
+}
+
+.btn-fluxr-accent:hover,
+.btn-fluxr-accent:focus {
+  background-color: #c54ecf;
+  border-color: #c54ecf;
+  color: #fff;
+}
+
+.btn-fluxr-primary {
+  background-color: var(--fluxr-blue);
+  border-color: var(--fluxr-blue);
+  color: #fff;
+}
+
+.btn-fluxr-primary:hover {
+  background-color: #152d96;
+  border-color: #152d96;
+  color: #fff;
+}
+
+.text-fluxr-pink {
+  color: var(--fluxr-pink);
+}
+
+.border-fluxr {
+  border-color: var(--fluxr-pink) !important;
+}
+
+.alert-fluxr {
+  background-color: var(--fluxr-light);
+  border-color: var(--fluxr-blue);
+  color: var(--fluxr-dark);
+}
+
+.navbar-brand img {
+  height: 34px;
+  width: auto;
+}
+
+.hero-logo {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.2));
+}
+
+.intro-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #000;
+}
+
+.pricing-popular {
+  box-shadow: 0 4px 20px rgba(217, 98, 224, 0.22) !important;
+  position: relative;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.15rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-link-light {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.back-link-light:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.18);
+  border-color: var(--fluxr-pink);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.back-link-dark {
+  color: var(--fluxr-blue);
+  background: #fff;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.back-link-dark:hover {
+  color: var(--fluxr-blue);
+  background: var(--fluxr-light);
+  border-color: var(--fluxr-blue);
+  box-shadow: 0 2px 8px rgba(26, 54, 177, 0.12);
+}
+
+.feed-panel .list-group-item {
+  transition: background 0.2s ease;
+}
+
+.feed-panel .list-group-item:hover {
+  background: #fff;
+}
