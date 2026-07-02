@@ -87,6 +87,55 @@
   opacity: 0.7;
 }
 
+.footer-music-player {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-music-label {
+  color: #dee2e6;
+}
+
+.footer-music-track {
+  color: #868e96;
+  font-size: 0.8rem;
+}
+
+.footer-music-btn {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  line-height: 1;
+}
+
+.footer-music-btn:hover,
+.footer-music-btn:focus {
+  background: var(--fluxr-pink);
+  border-color: var(--fluxr-pink);
+  color: #fff;
+}
+
+.footer-music-volume {
+  width: 5.5rem;
+  height: 0.35rem;
+  accent-color: var(--fluxr-pink);
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  .footer-music-player {
+    justify-content: flex-start;
+  }
+}
+
 .sitemap-card .card-title {
   color: var(--fluxr-blue);
   font-weight: 600;
