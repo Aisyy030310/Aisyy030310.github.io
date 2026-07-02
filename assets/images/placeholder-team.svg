@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect fill="#e2e8f0" width="300" height="300"/>
+  <circle fill="#cbd5e1" cx="150" cy="120" r="50"/>
+  <ellipse fill="#94a3b8" cx="150" cy="230" rx="70" ry="40"/>
+  <text fill="#64748b" font-family="Arial,sans-serif" font-size="13" x="150" y="280" text-anchor="middle">Team Photo</text>
+</svg>

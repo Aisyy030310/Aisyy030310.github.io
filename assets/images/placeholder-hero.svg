@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect fill="#e2e8f0" width="800" height="500"/>
+  <rect fill="#cbd5e1" x="320" y="170" width="160" height="120" rx="8"/>
+  <circle fill="#94a3b8" cx="370" cy="220" r="18"/>
+  <polygon fill="#94a3b8" points="340,270 420,210 480,270"/>
+  <text fill="#64748b" font-family="Arial,sans-serif" font-size="22" x="400" y="340" text-anchor="middle">Replace Hero Image</text>
+  <text fill="#94a3b8" font-family="Arial,sans-serif" font-size="14" x="400" y="365" text-anchor="middle">800 x 500 px</text>
+</svg>

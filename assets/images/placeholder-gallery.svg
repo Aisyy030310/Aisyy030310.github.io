@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="250" viewBox="0 0 350 250">
+  <rect fill="#e2e8f0" width="350" height="250"/>
+  <rect fill="#cbd5e1" x="120" y="60" width="110" height="90" rx="6"/>
+  <circle fill="#94a3b8" cx="155" cy="95" r="12"/>
+  <polygon fill="#94a3b8" points="135,135 185,105 225,135"/>
+  <text fill="#64748b" font-family="Arial,sans-serif" font-size="13" x="175" y="190" text-anchor="middle">Gallery Photo</text>
+</svg>

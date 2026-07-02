@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+  <rect fill="#e2e8f0" width="600" height="350"/>
+  <rect fill="#cbd5e1" x="230" y="100" width="140" height="100" rx="6"/>
+  <circle fill="#94a3b8" cx="275" cy="140" r="14"/>
+  <polygon fill="#94a3b8" points="250,185 310,145 360,185"/>
+  <text fill="#64748b" font-family="Arial,sans-serif" font-size="16" x="300" y="250" text-anchor="middle">Replace Blog Image</text>
+</svg>
